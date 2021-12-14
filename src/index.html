@@ -7,6 +7,28 @@
   <title>Document</title>
 </head>
 <body>
+  <header>
+    <h1 id="main-title">Leaderboard</h1>
+  </header>
+  <main class="main-container">
+    <div class="score-board">
+      <h2 class="text">Recent scores</h2>
+      <button class="refresh-btn">Refresh</button>
+      <ul class="score-list" id="score">
+       
+      </ul>
+    </div>
+    <div class="add-score">
+      <h3 class="text">Add your score</h3>
+      <form class="add-a-score">
+        <input class="your-name" placeholder="your name" required="text" /><br>
+        <br>
+        <input class="your-score" placeholder="your score" required="number" /><br>
+        <button class="submit-btn">Submit</button>
+      </form>
+    </div>
+
+  </main>
 <script src="./index.bundle.js"></script>
 </body>
 </html>
