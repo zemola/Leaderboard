@@ -46,12 +46,6 @@ body {
   margin: 5%;
 }
 
-.score-bored-heading .btn {
-  height: 40px;
-  padding: 10px 20px;
-  margin-top: 10px;
-}
-
 .score-board {
   display: flex;
   justify-content: space-between;
@@ -76,7 +70,6 @@ li {
   background-color: #d4dcff;
   border-radius: 3px;
   box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
-
 }
 
 li:nth-child(even) {
@@ -103,6 +96,12 @@ form .btn {
   text-align: center;
 }
 
+.score-bored-heading .btn {
+  height: 40px;
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
 .btn:hover {
   background-color: rgb(134, 150, 118);
   transform: scale(1.3);
@@ -118,5 +117,3 @@ form .btn {
   flex-direction: column;
   gap: 20px;
 }
-
-
