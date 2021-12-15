@@ -1,34 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <header>
-    <h1 id="main-title">Leaderboard</h1>
-  </header>
-  <main class="main-container">
-    <div class="score-board">
-      <h2 class="text">Recent scores</h2>
-      <button class="refresh-btn">Refresh</button>
-      <ul class="score-list" id="score">
-       
-      </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wbpack Exercise</title>
+  </head>
+  <body>
+    <div class="general-wrapper">
+      <header>
+        <h1 id="main-title">Leaderboard</h1>
+      </header>
+      <main class="main-container">
+        <div class="score-bored-heading">
+          <div class="score-board">
+            <div class="text-wrap"><h2>Recent scores</h2></div>
+            <button class="refresh-btn">Refresh</button>
+          </div>
+          <ul class="score-list" id="score"></ul>
+        </div>
+        <div class="add-score">
+          <h3 class="text-2">Add your score</h3>
+          <form class="add-a-score">
+            <input
+              class="your-name"
+              placeholder="your name"
+              required="text"
+            /><br />
+            <br />
+            <input
+              class="your-score"
+              placeholder="your score"
+              required="number"
+            /><br />
+            <br />
+            <button class="submit-btn">Submit</button>
+          </form>
+        </div>
+      </main>
     </div>
-    <div class="add-score">
-      <h3 class="text">Add your score</h3>
-      <form class="add-a-score">
-        <input class="your-name" placeholder="your name" required="text" /><br>
-        <br>
-        <input class="your-score" placeholder="your score" required="number" /><br>
-        <button class="submit-btn">Submit</button>
-      </form>
-    </div>
-
-  </main>
-<script src="./index.bundle.js"></script>
-</body>
+  </body>
 </html>
