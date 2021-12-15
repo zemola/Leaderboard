@@ -110,13 +110,33 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/Input.js":
+/*!**********************!*\
+  !*** ./src/Input.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((data) => {\r\n  const scores = document.querySelector(\".display-score\");\r\n  const ul = scores.firstElementChild;\r\n  ul.innerHTML = \"\";\r\n  data.forEach((info) => {\r\n    ul.innerHTML += `<li>\r\n      <p>${info.user} :</p>\r\n      <p>${info.score}</p>\r\n    </li>`;\r\n  });\r\n});\r\n\n\n//# sourceURL=webpack://webpack-setup-basics/./src/Input.js?");
+
+/***/ }),
+
+/***/ "./src/data.js":
+/*!*********************!*\
+  !*** ./src/data.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ([\r\n  {\r\n    name: \"olatunji azeem\",\r\n    score: 28,\r\n  },\r\n  {\r\n    name: \"olatunji Adebyo\",\r\n    score: 60,\r\n  },\r\n]);\n\n//# sourceURL=webpack://webpack-setup-basics/./src/data.js?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\r\n\n\n//# sourceURL=webpack://webpack-setup-basics/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _Input_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Input.js */ \"./src/Input.js\");\n/* harmony import */ var _data_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./data.js */ \"./src/data.js\");\n\r\n\r\n\r\n\r\n(0,_Input_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(data);\n\n//# sourceURL=webpack://webpack-setup-basics/./src/index.js?");
 
 /***/ })
 
