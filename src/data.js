@@ -1,14 +1,14 @@
 export default [
   {
-    name: "olatunji azeem",
+    name: 'olatunji azeem',
     score: 28,
   },
   {
-    name: "olatunji Adebyo",
+    name: 'olatunji Adebyo',
     score: 60,
   },
   {
-    name: "Adisa Adebyo",
+    name: 'Adisa Adebyo',
     score: 60,
   },
 ];

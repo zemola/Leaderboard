@@ -1,8 +1,9 @@
-import './data.js'
+import './data.js';
+
 export default (data) => {
-  const scores = document.querySelector(".display-score");
+  const scores = document.querySelector('.display-score');
   const ul = scores.firstElementChild;
-  ul.innerHTML = "";
+  ul.innerHTML = '';
   data.forEach((info) => {
     ul.innerHTML += `<li>
       <p>${info.name} :</p>
