@@ -6,8 +6,39 @@
     <title>Wbpack Exercise</title>
   <script defer src="main.js"></script></head>
   <body>
-    <h1>Hello webpack!</h1>
-    <p>Created by: Amadu Kamara (Amkam)</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis deleniti enim ea incidunt reiciendis adipisci nihil accusantium unde praesentium aliquam.</p>
+    <section>
+      <div class="general-wrapper">
+        <div class="top-container">
+          <header>
+            <h1 id="main-title">Leaderboard</h1>
+          </header>
+          <!-- display section of the score-board -->
+          <div class="score-bored-heading">
+            <div class="score-board">
+              <h2>Recent scores</h2>
+              <button class="btn refresh-btn">Refresh</button>
+            </div>
+            <div class="display-score">
+              <ul class="score-list" id="score">
+                <li>AZEEM ADE : 29</li>
+                <li>AZEEM BAYO : 99</li>
+                <li>AZEEM ADEBAYO: 89</li>
+                <li>AZEEM ADISA: 36</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- the input form section of the score board -->
+        <div class="add-score-container">
+          <h2>Add your score</h2>
+          <form class="add-a-score">
+            <input type="text" placeholder="your name" id="name" />
+            <input type="number" placeholder="your score" id="score" />
+            <button type="button" class="btn submit-btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

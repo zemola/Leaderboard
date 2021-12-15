@@ -16,7 +16,7 @@
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\r\\n  margin: 0;\\r\\n  padding: 0;\\r\\n  box-sizing: border-box;\\r\\n}\\r\\n\\r\\nbody {\\r\\n  background-color: #f6f6f6;\\r\\n  font-family: sans-serif;\\r\\n  text-align: center;\\r\\n  font-weight: 300;\\r\\n  font-size: 14px;\\r\\n  color: #1d1d1d;\\r\\n}\\r\\n\\r\\n.general-wrapper {\\r\\n  width: 80%;\\r\\n  max-height: 100vh;\\r\\n  position: absolute;\\r\\n  top: 50%;\\r\\n  left: 50%;\\r\\n  transform: translate(-50%, -50%);\\r\\n  background-color: #fff;\\r\\n  border-radius: 3px;\\r\\n  box-shadow: 0 2px 8px rgb(0 0 0 / 15%);\\r\\n  padding: 2%;\\r\\n}\\r\\n\\r\\n\\r\\n#main-title {\\r\\n  margin: 3%;\\r\\n  text-align: start;\\r\\n}\\r\\n\\r\\n.score-board {\\r\\n  display: flex;\\r\\n  justify-content: space-between;\\r\\n}\\r\\n\\r\\n\\r\\n.main-container {\\r\\n  display: flex;\\r\\n  justify-content: space-evenly;\\r\\n}\\r\\n\\r\\n.text-2 {\\r\\n  margin-bottom: 5%;\\r\\n}\\r\\n\\r\\n.your-name,\\r\\n.your-score {\\r\\n  padding: 2%;\\r\\n}\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webpack-setup-basics/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, \"* {\\r\\n  margin: 0;\\r\\n  padding: 0;\\r\\n  box-sizing: border-box;\\r\\n}\\r\\n\\r\\nbody {\\r\\n  background-color: #f6f6f6;\\r\\n  font-family: sans-serif;\\r\\n}\\r\\n\\r\\n.section {\\r\\n  display: grid;\\r\\n  margin: 50px;\\r\\n  grid-template-columns: 1fr;\\r\\n}\\r\\n\\r\\n.section h2 {\\r\\n  font-size: 20px;\\r\\n  color: #333;\\r\\n  font-weight: 400;\\r\\n}\\r\\n\\r\\n.general-wrapper {\\r\\n  margin: 5%;\\r\\n  display: flex;\\r\\n  gap: 100px;\\r\\n}\\r\\n\\r\\n.top-container {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  width: 50%;\\r\\n}\\r\\n\\r\\n.top-container h1 {\\r\\n  font-size: 40px;\\r\\n  font-weight: 570;\\r\\n  color: #333;\\r\\n}\\r\\n\\r\\n.score-bored-heading {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  justify-content: space-between;\\r\\n  margin: 5%;\\r\\n}\\r\\n\\r\\n.score-bored-heading .btn {\\r\\n  height: 40px;\\r\\n  padding: 10px 20px;\\r\\n  margin-top: 10px;\\r\\n}\\r\\n\\r\\n.score-board {\\r\\n  display: flex;\\r\\n  justify-content: space-between;\\r\\n}\\r\\n\\r\\n.display-score {\\r\\n  border: 1.5px solid #333;\\r\\n  margin-top: 20px;\\r\\n}\\r\\n\\r\\n.display-score ul {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  padding: 0;\\r\\n  list-style-type: none;\\r\\n}\\r\\n\\r\\nli {\\r\\n  display: flex;\\r\\n  gap: 20px;\\r\\n  padding: 5px 10px;\\r\\n  background-color: #fff;\\r\\n  border-radius: 3px;\\r\\n  box-shadow: 0 2px 8px rgb(0 0 0 / 15%);\\r\\n\\r\\n}\\r\\n\\r\\nli:nth-child(even) {\\r\\n  background: #241e23e1;\\r\\n  color: #fff;\\r\\n}\\r\\n\\r\\n.btn {\\r\\n  border-radius: 2px;\\r\\n  border: none;\\r\\n  color: rgb(15, 1, 1);\\r\\n  border-right: 6px solid black;\\r\\n  border-bottom: 6px solid black;\\r\\n}\\r\\n\\r\\nform input {\\r\\n  padding: 10px;\\r\\n}\\r\\n\\r\\nform .btn {\\r\\n  width: 100px;\\r\\n  padding: 10px;\\r\\n  align-self: flex-end;\\r\\n  text-align: center;\\r\\n}\\r\\n\\r\\n.btn:hover {\\r\\n  background-color: rgb(134, 150, 118);\\r\\n  transform: scale(1.3);\\r\\n}\\r\\n\\r\\n.add-score-container {\\r\\n  margin-top: 5%;\\r\\n  width: 30%;\\r\\n}\\r\\n\\r\\n.add-a-score {\\r\\n  display: flex;\\r\\n  flex-direction: column;\\r\\n  gap: 20px;\\r\\n}\\r\\n\\r\\n\\r\\n\", \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://webpack-setup-basics/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -136,18 +136,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _laptop_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./laptop.jpg */ \"./src/laptop.jpg\");\n\r\n\r\n\r\n\r\nfunction component() {\r\n  const element = document.createElement(\"div\");\r\n\r\n  // Lodash, now imported by this script\r\n  element.innerHTML = lodash__WEBPACK_IMPORTED_MODULE_0___default().join([\"Hello\", \"webpack\"], \" \");\r\n  element.classList.add(\"hello\");\r\n\r\n  // Add the image to our existing div.\r\n  const myIcon = new Image();\r\n  myIcon.src = _laptop_jpg__WEBPACK_IMPORTED_MODULE_2__;\r\n\r\n  element.appendChild(myIcon);\r\n\r\n  return element;\r\n}\r\n\r\ndocument.body.appendChild(component());\r\n\n\n//# sourceURL=webpack://webpack-setup-basics/./src/index.js?");
-
-/***/ }),
-
-/***/ "./src/laptop.jpg":
-/*!************************!*\
-  !*** ./src/laptop.jpg ***!
-  \************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-eval("module.exports = __webpack_require__.p + \"73995f37016383dc6a9d.jpg\";\n\n//# sourceURL=webpack://webpack-setup-basics/./src/laptop.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\r\n\r\n\r\n\n\n//# sourceURL=webpack://webpack-setup-basics/./src/index.js?");
 
 /***/ })
 
@@ -240,26 +229,6 @@ eval("module.exports = __webpack_require__.p + \"73995f37016383dc6a9d.jpg\";\n\n
 /******/ 			if (!module.children) module.children = [];
 /******/ 			return module;
 /******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/publicPath */
-/******/ 	(() => {
-/******/ 		var scriptUrl;
-/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
-/******/ 		var document = __webpack_require__.g.document;
-/******/ 		if (!scriptUrl && document) {
-/******/ 			if (document.currentScript)
-/******/ 				scriptUrl = document.currentScript.src
-/******/ 			if (!scriptUrl) {
-/******/ 				var scripts = document.getElementsByTagName("script");
-/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
-/******/ 			}
-/******/ 		}
-/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
-/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
-/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
-/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
-/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
