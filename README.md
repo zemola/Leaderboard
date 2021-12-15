@@ -14,7 +14,7 @@ The leaderboard website displays scores submitted by different players. It also 
 
 ## Live Demo
 
-<a href= "https://zemola.github.io/Leaderboard/dist/">To-do list App</a>
+<a href= "https://zemola.github.io/Leaderboard/dist/">Leaderboard App</a>
 
 
 
