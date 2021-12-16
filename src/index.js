@@ -1,5 +1,23 @@
 import './style.css';
-import data from './data.js';
-import Input from './Input.js';
+import input from './input.js';
+import { getScores, addScore } from "./api.js";
 
-Input(data);
+const btn = document.querySelector(".submit-btn");
+
+async function mainRender() {
+  const array = await getScores();
+  input(array);
+}
+mainRender();
+
+btn.addEventListener("click", async () => {
+  const user = document.querySelector("#name").value;
+  const score = Number(document.querySelector("#input-score").value);
+  const obj = { user, score };
+
+  addScore(obj);
+  document.querySelector("#name").value = "";
+  document.querySelector("#input-score").value = "";
+});
+
+document.querySelector(".refresh-btn").addEventListener("click", mainRender);
