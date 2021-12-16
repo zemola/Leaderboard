@@ -1,8 +1,8 @@
 import './style.css';
 import input from './input.js';
-import { getScores, addScore } from "./api.js";
+import { getScores, addScore } from './api.js';
 
-const btn = document.querySelector(".submit-btn");
+const btn = document.querySelector('.submit-btn');
 
 async function mainRender() {
   const array = await getScores();
@@ -10,14 +10,14 @@ async function mainRender() {
 }
 mainRender();
 
-btn.addEventListener("click", async () => {
-  const user = document.querySelector("#name").value;
-  const score = Number(document.querySelector("#input-score").value);
+btn.addEventListener('click', async () => {
+  const user = document.querySelector('#name').value;
+  const score = Number(document.querySelector('#input-score').value);
   const obj = { user, score };
 
   addScore(obj);
-  document.querySelector("#name").value = "";
-  document.querySelector("#input-score").value = "";
+  document.querySelector('#name').value = '';
+  document.querySelector('#input-score').value = '';
 });
 
-document.querySelector(".refresh-btn").addEventListener("click", mainRender);
+document.querySelector('.refresh-btn').addEventListener('click', mainRender);

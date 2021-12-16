@@ -1,4 +1,3 @@
-
 export default (data) => {
   const scores = document.querySelector('.display-score');
   const ul = scores.firstElementChild;
