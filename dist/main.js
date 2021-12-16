@@ -119,6 +119,17 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/Input.js":
+/*!**********************!*\
+  !*** ./src/Input.js ***!
+  \**********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((data) => {\r\n  const scores = document.querySelector('.display-score');\r\n  const ul = scores.firstElementChild;\r\n  ul.innerHTML = '';\r\n  data.forEach((info) => {\r\n    ul.innerHTML += `<li>\r\n      <p>${info.user} :</p>\r\n      <p>${info.score}</p>\r\n    </li>`;\r\n  });\r\n});\r\n\n\n//# sourceURL=webpack://webpack-setup-basics/./src/Input.js?");
+
+/***/ }),
+
 /***/ "./src/api.js":
 /*!********************!*\
   !*** ./src/api.js ***!
@@ -136,18 +147,7 @@ eval("const url = 'https://us-central1-js-capstone-backend.cloudfunctions.net/ap
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _input_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./input.js */ \"./src/input.js\");\n/* harmony import */ var _api_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./api.js */ \"./src/api.js\");\n/* harmony import */ var _api_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_api_js__WEBPACK_IMPORTED_MODULE_2__);\n\r\n\r\n\r\n\r\nconst btn = document.querySelector('.submit-btn');\r\n\r\nasync function mainRender() {\r\n  const array = await (0,_api_js__WEBPACK_IMPORTED_MODULE_2__.getScores)();\r\n  (0,_input_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(array);\r\n}\r\nmainRender();\r\n\r\nbtn.addEventListener('click', async () => {\r\n  const user = document.querySelector('#name').value;\r\n  const score = Number(document.querySelector('#input-score').value);\r\n  const obj = { user, score };\r\n\r\n  (0,_api_js__WEBPACK_IMPORTED_MODULE_2__.addScore)(obj);\r\n  document.querySelector('#name').value = '';\r\n  document.querySelector('#input-score').value = '';\r\n});\r\n\r\ndocument.querySelector('.refresh-btn').addEventListener('click', mainRender);\n\n//# sourceURL=webpack://webpack-setup-basics/./src/index.js?");
-
-/***/ }),
-
-/***/ "./src/input.js":
-/*!**********************!*\
-  !*** ./src/input.js ***!
-  \**********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((data) => {\r\n  const scores = document.querySelector('.display-score');\r\n  const ul = scores.firstElementChild;\r\n  ul.innerHTML = '';\r\n  data.forEach((info) => {\r\n    ul.innerHTML += `<li>\r\n      <p>${info.user} :</p>\r\n      <p>${info.score}</p>\r\n    </li>`;\r\n  });\r\n});\r\n\n\n//# sourceURL=webpack://webpack-setup-basics/./src/input.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _Input_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Input.js */ \"./src/Input.js\");\n/* harmony import */ var _api_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./api.js */ \"./src/api.js\");\n/* harmony import */ var _api_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_api_js__WEBPACK_IMPORTED_MODULE_2__);\n\r\n\r\n\r\n\r\nconst btn = document.querySelector('.submit-btn');\r\n\r\nasync function mainRender() {\r\n  const array = await (0,_api_js__WEBPACK_IMPORTED_MODULE_2__.getScores)();\r\n  (0,_Input_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(array);\r\n}\r\nmainRender();\r\n\r\nbtn.addEventListener('click', async () => {\r\n  const user = document.querySelector('#name').value;\r\n  const score = Number(document.querySelector('#input-score').value);\r\n  const obj = { user, score };\r\n\r\n  (0,_api_js__WEBPACK_IMPORTED_MODULE_2__.addScore)(obj);\r\n  document.querySelector('#name').value = '';\r\n  document.querySelector('#input-score').value = '';\r\n});\r\n\r\ndocument.querySelector('.refresh-btn').addEventListener('click', mainRender);\n\n//# sourceURL=webpack://webpack-setup-basics/./src/index.js?");
 
 /***/ })
 

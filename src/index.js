@@ -1,5 +1,5 @@
 import './style.css';
-import input from './input.js';
+import input from './Input.js';
 import { getScores, addScore } from './api.js';
 
 const btn = document.querySelector('.submit-btn');
