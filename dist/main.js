@@ -125,7 +125,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \********************/
 /***/ ((module) => {
 
-eval("const url =\r\n  \"https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/uoLjz1rr0ajNeJ1HqpM7/scores/\";\r\n\r\nasync function getScores() {\r\n  const response = await fetch(url);\r\n  const data = await response.json();\r\n  return data.result;\r\n}\r\n\r\nasync function addScore(obj) {\r\n  const response = await fetch(url, {\r\n    method: \"POST\",\r\n    headers: {\r\n      \"Content-Type\": \"application/json\",\r\n    },\r\n    body: JSON.stringify(obj),\r\n  });\r\n  const data = await response.json();\r\n  return data.result;\r\n}\r\nmodule.exports = { getScores, addScore };\n\n//# sourceURL=webpack://webpack-setup-basics/./src/api.js?");
+eval("const url = \"https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/uoLjz1rr0ajNeJ1HqpM7/scores/\";\r\n\r\nasync function getScores() {\r\n  const response = await fetch(url);\r\n  const data = await response.json();\r\n  return data.result;\r\n}\r\n\r\nasync function addScore(obj) {\r\n  const response = await fetch(url, {\r\n    method: 'POST',\r\n    headers: {\r\n      'Content-Type': 'application/json',\r\n    },\r\n    body: JSON.stringify(obj),\r\n  });\r\n  const data = await response.json();\r\n  return data.result;\r\n}\r\nmodule.exports = { getScores, addScore };\n\n//# sourceURL=webpack://webpack-setup-basics/./src/api.js?");
 
 /***/ }),
 

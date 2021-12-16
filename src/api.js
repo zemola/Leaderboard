@@ -1,5 +1,4 @@
-const url =
-  "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/uoLjz1rr0ajNeJ1HqpM7/scores/";
+const url = "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/uoLjz1rr0ajNeJ1HqpM7/scores/";
 
 async function getScores() {
   const response = await fetch(url);
@@ -9,9 +8,9 @@ async function getScores() {
 
 async function addScore(obj) {
   const response = await fetch(url, {
-    method: "POST",
+    method: 'POST',
     headers: {
-      "Content-Type": "application/json",
+      'Content-Type': 'application/json',
     },
     body: JSON.stringify(obj),
   });
