@@ -17,8 +17,6 @@ The leaderboard website displays scores submitted by different players. It also 
 <a href= "https://zemola.github.io/Leaderboard/dist/">Leaderboard App</a>
 
 
-
-
 **Instructions on how to access my project locally.**
 
  To Access my project locally please follow either of the two steps listed below ;
