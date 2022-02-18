@@ -62,7 +62,6 @@ body {
   flex-direction: column;
   padding: 0;
   list-style-type: none;
-  text-overflow: ellipsis;
 }
 
 li {
@@ -80,7 +79,7 @@ li:nth-child(even) {
 }
 
 .user-info {
-  width: 70%
+  width: 70%;
 }
 
 .score {
