@@ -79,6 +79,14 @@ li:nth-child(even) {
   color: #fff;
 }
 
+.user-info {
+  width: 70%
+}
+
+.score {
+  width: 30%;
+}
+
 .btn {
   border-radius: 2px;
   border: none;
