@@ -54,6 +54,7 @@ body {
 .display-score {
   border: 1.5px solid #333;
   margin-top: 20px;
+  word-break: break-all;
 }
 
 .display-score ul {
@@ -75,6 +76,14 @@ li {
 li:nth-child(even) {
   background: #7d83ff;
   color: #fff;
+}
+
+.user-info {
+  width: 70%;
+}
+
+.score {
+  width: 30%;
 }
 
 .btn {

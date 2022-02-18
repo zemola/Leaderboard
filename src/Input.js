@@ -4,8 +4,8 @@ export default (data) => {
   ul.innerHTML = '';
   data.forEach((info) => {
     ul.innerHTML += `<li>
-      <p>${info.user} :</p>
-      <p>${info.score}</p>
+      <p class="user-info">${info.user} :</p>
+      <p class="score">${info.score}</p>
     </li>`;
   });
 };
